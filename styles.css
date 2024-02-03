@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo-left {
+    height: 30px;
+}
+
+.logo-right {
+    height: 25px;
+}
+
+.logo-mid {
+    height: 50px;
+    font-size: large;
+    color: #0667a3;
+    margin: auto;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+#tweetForm {
+    margin-bottom: 20px;
+}
+
+#tweetForm button {
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#tweetText {
+    width: 100%;
+    height: 50px;
+}
+
+.tweet {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.like {
+    color: red;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-icon {
+    height: 30px;
+    margin-right: 10px;
+}
